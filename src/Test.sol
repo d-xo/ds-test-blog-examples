@@ -104,5 +104,3 @@ contract TestBal is DSTest, SafeMath {
         assertEq(add(preBalDst, delta), bal.balanceOf(dst));
     }
 }
-
-
